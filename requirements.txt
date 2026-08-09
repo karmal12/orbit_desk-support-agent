@@ -1,0 +1,16 @@
+# Web UI 
+flask==3.1.0
+
+# Graph orchestration (graph.py)
+langgraph==0.2.60
+
+# LangChain integration packages (embeddings.py, graph.py)
+langchain-core==0.3.28
+langchain-text-splitters==0.3.4
+langchain-community==0.3.14
+langchain-huggingface==0.1.2
+langchain-ollama==0.2.2
+
+# Embedding model backend + vector store
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
